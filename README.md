@@ -10,16 +10,20 @@ If a specific sysmodule does not work it is most likely missing the toolbox.json
 
 Assuming that the sysmodule is compatible and can be disabled/enabled you can make the .json file yourself if it is not readily available (most sysmodules come with the .json file however)
 
+```sh
 {
 	"name"  : "NAME-OF-SYSMODULE",
 	"tid"   : "TITLE_ID_HERE",
 	"requires_reboot": true_OR_false_here
 }
+```
 
 As an example
 
+```sh
 {
 	"name"  : "poopoopeepee",
 	"tid"   : "6900000000000420",
 	"requires_reboot": false
 }
+```
